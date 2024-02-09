@@ -1,28 +1,3 @@
-Changes made to the model since previous homework:
+# Klondike
 
- - was getting a NullPointerException in my validDeck method, changed the way I checked to throw
- exceptions in the first 2 lines of the method
-
-- made fields private in BasicKlondike
-
-- made fields protected in Pile
-
-- added java doc for constructors and classes
-
-- created helpers to simplify isGameOver in BasicKlondike
-
- - changed methods in Draw class to package private instead of public
-
- - made helpers like isPileEmpty(), movePileToEmpty(), isKing(), and isAce() to make move methods more readable and cut out duplicate code
-
-- changes isGameOver to check if there’s any possible moves, or if every cascade is empty, made helpers to do so
-
-- made an abstract class, AbstractKlondike which implements KlondikeModel
-
-- made BasicKlondike, LimitedDrawKlondike, and WhiteheadKlondike extend AbstractKlondike
-
-- made a new abstract class AbstractCascade which extends Pile
-
-- made a new class WhiteheadCascade to represent cascades where all the cards are visible
-
-- made WhiteheadCascade and Cascade extend AbstractCascade
+A version of the card game Solitaire where players sort a standard 52-card deck by suit. 
